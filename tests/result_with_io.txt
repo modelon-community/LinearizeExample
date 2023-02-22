@@ -1,0 +1,50 @@
+
+A = [
+[0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+[0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0],
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0],
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0],
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+]
+
+B = [
+[0.0],
+[0.0],
+[0.0],
+[0.0],
+[0.0],
+[-0.33333337],
+[0.0],
+[0.0],
+]
+
+C = [
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0],
+]
+
+D = [
+[0.0],
+]
+
+# At operating point 1s :
+
+state_names = ['d.a', 'e.b', 'f.c', 'g.d']
+
+operating_point_states = [1, 2, 3, 4]
+
+operating_point_derivatives = [-0.00181693, -0.0163713, -0.0190693, -0.054883]
+
+input_names = ['input1', 'input2', 'input3', 'input4']
+
+operating_point_inputs = [1, 0, 1, 0]
+
+output_names = ['output1', 'output2', 'output3', 'output4']
+
+operating_point_outputs = [1, 0, 1, 0]
+
+Stored artifact with ID: ABCD
+
+Artifact can be downloaded from @artifact[here](api/workspace/TEST_WS/experiments/TEST_EXP/cases/TEST_CASE/custom-artifacts/ABCD)

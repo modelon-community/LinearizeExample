@@ -1,0 +1,50 @@
+{
+  "version" : "2",
+  "id" : "46be5af2-9f55-4e81-93eb-2424357ad8b4",
+  "experiment" : {
+    "base" : {
+      "analysis" : {
+        "variableFilters" : [ ],
+        "selectedType" : "Linearize.linearize",
+        "choices" : [ {
+          "type" : "dynamic",
+          "parameters" : {
+            "final_time" : 10000.0
+          },
+          "simulationOptions" : { },
+          "solverOptions" : { },
+          "compilerOptions" : { },
+          "runtimeOptions" : { }
+        }, {
+          "type" : "steady state",
+          "parameters" : { },
+          "simulationOptions" : { },
+          "solverOptions" : { },
+          "compilerOptions" : { },
+          "runtimeOptions" : { }
+        }, {
+          "type" : "Linearize.linearize",
+          "parameters" : {
+            "t_linearize" : 5
+          },
+          "simulationOptions" : {
+            "rtol" : 1.0E-6,
+            "solver" : "Radau5ODE"
+          },
+          "solverOptions" : { },
+          "compilerOptions" : { },
+          "runtimeOptions" : { }
+        } ]
+      },
+      "modifiers" : {
+        "variables" : [ ]
+      }
+    }
+  },
+  "metadata" : {
+    "created" : "2023-03-01T07:40:55.540Z",
+    "lastModified" : "2023-03-02T06:50:46.077064764Z",
+    "name" : "Experiment 1",
+    "default" : true
+  }
+}
