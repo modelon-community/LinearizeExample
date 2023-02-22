@@ -1,0 +1,14 @@
+{
+  "name": "Linearize",
+  "format": "1.0.0",
+  "dependencies": [],
+  "content": [
+    {
+      "relpath": "Resources/CustomFunctions",
+      "contentType": "CUSTOM_FUNCTIONS",
+      "defaultDisabled": false,
+      "id": "5fc1a0703df74195ae8bc2c52af432ba"
+    }
+  ],
+  "executionOptions": []
+}
