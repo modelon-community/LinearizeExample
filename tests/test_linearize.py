@@ -1,10 +1,14 @@
 import tempfile
 import numpy as N
 import os
+import sys
+from tests.utils import capture
+from tests.mocks import LinearizeModelMock
 
-from mimp.base.utils.capture import capture
-from tests.custom_functions.external.linearize import linearize
-from tests.custom_functions.external.mocks import LinearizeModelMock
+cf_dir = os.path.join(os.path.dirname(__file__), '..', 'Resources', 'CustomFunctions')
+sys.path.append(cf_dir)
+
+from linearize import linearize
 
 TEST_WS_ID = 'TEST_WS'
 TEST_EXP_ID = 'TEST_EXP'
