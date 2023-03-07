@@ -1,0 +1,46 @@
+{
+  "name": "Linearize",
+  "version": "1.0.0",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "Resources/CustomFunctions",
+      "contentType": "CUSTOM_FUNCTIONS",
+      "defaultDisabled": false,
+      "id": "5fc1a0703df74195ae8bc2c52af432ba"
+    },
+    {
+      "relpath": "Resources/Notebooks",
+      "contentType": "GENERIC",
+      "defaultDisabled": false,
+      "id": "0d6d7fa700b74d358da28c758390aba7"
+    },
+    {
+      "relpath": "LinearizeExample",
+      "contentType": "MODELICA",
+      "name": "LinearizeExample",
+      "defaultDisabled": false,
+      "id": "cf125e166f9e4e1fa69383aab8f878e4"
+    },
+    {
+      "relpath": "Resources/ExperimentDefinitions",
+      "contentType": "EXPERIMENT_DEFINITIONS",
+      "defaultDisabled": false,
+      "id": "61d02c2c41094fd195cb4edfcef0260b"
+    },
+    {
+      "relpath": "tests",
+      "contentType": "GENERIC",
+      "defaultDisabled": false,
+      "id": "1eae0c37352342888d71599311263350"
+    }
+  ],
+  "executionOptions": [],
+  "icon": ".impact/icon.png"
+}

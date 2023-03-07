@@ -1,0 +1,3 @@
+Stored artifact with ID: ABCD
+
+Artifact can be downloaded from @artifact[here](api/workspace/TEST_WS/experiments/TEST_EXP/cases/TEST_CASE/custom-artifacts/ABCD)
