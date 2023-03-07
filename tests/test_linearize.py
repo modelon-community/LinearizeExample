@@ -13,7 +13,7 @@ TEST_CASE_ID = 'TEST_CASE'
 
 def _assert_file_equal(result, ref_result_file):
     ref_result_file_path = os.path.join(
-        os.path.dirname(os.path.realpath(__file__)), ref_result_file
+        os.path.dirname(os.path.realpath(__file__)), 'files',ref_result_file
     )
     with open(ref_result_file_path) as f1:
         for l1, l2 in zip(f1, result.split('\n')):
