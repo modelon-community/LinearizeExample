@@ -1,10 +1,10 @@
 import tempfile
 import numpy as N
 import os
+from tests.utils import capture
+from tests.mocks import LinearizeModelMock
 
-from mimp.base.utils.capture import capture
-from tests.custom_functions.external.linearize import linearize
-from tests.custom_functions.external.mocks import LinearizeModelMock
+from linearize import linearize
 
 TEST_WS_ID = 'TEST_WS'
 TEST_EXP_ID = 'TEST_EXP'
@@ -13,7 +13,7 @@ TEST_CASE_ID = 'TEST_CASE'
 
 def _assert_file_equal(result, ref_result_file):
     ref_result_file_path = os.path.join(
-        os.path.dirname(os.path.realpath(__file__)), ref_result_file
+        os.path.dirname(os.path.realpath(__file__)), 'files',ref_result_file
     )
     with open(ref_result_file_path) as f1:
         for l1, l2 in zip(f1, result.split('\n')):
