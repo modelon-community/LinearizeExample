@@ -5,7 +5,7 @@
     "base" : {
       "analysis" : {
         "variableFilters" : [ ],
-        "selectedType" : "Linearize.linearize",
+        "selectedType" : "LinearizeExample.linearize",
         "choices" : [ {
           "type" : "dynamic",
           "parameters" : {
@@ -23,7 +23,7 @@
           "compilerOptions" : { },
           "runtimeOptions" : { }
         }, {
-          "type" : "Linearize.linearize",
+          "type" : "LinearizeExample.linearize",
           "parameters" : {
             "t_linearize" : 5
           },
