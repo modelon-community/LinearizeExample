@@ -1,11 +1,11 @@
 {
   "name": "LinearizeExample",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "format": "1.0.0",
   "dependencies": [
     {
       "name": "Modelica",
-      "versionSpecifier": "4.0.0"
+      "versionSpecifier": "4.1.0"
     }
   ],
   "content": [
